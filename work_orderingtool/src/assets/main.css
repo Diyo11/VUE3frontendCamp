@@ -1,0 +1,23 @@
+@import './base.css';
+
+td {
+  padding: 12px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 600px;
+  background-color: #000000;
+  border: 1px solid #ccc;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.center-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding: 20px;
+}
